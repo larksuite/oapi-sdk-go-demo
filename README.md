@@ -17,4 +17,4 @@
 MIT
 
 ## 加入讨论群
-[_单击_](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=5b4ua18d-80e0-41b6-a7ea-1229b0feb78f)加入讨论群
+[_单击_](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=985nb30c-787a-4fbb-904d-2cf945534078)加入讨论群
