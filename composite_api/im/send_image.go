@@ -1,7 +1,7 @@
 /*
-发送图片消息，使用到两个OpenAPI：
-1. [上传图片](https://open.feishu.cn/document/server-docs/im-v1/image/create)
-2. [发送消息](https://open.feishu.cn/document/server-docs/im-v1/message/create)
+ 发送图片消息，使用到两个OpenAPI：
+ 1. [上传图片](https://open.feishu.cn/document/server-docs/im-v1/image/create)
+ 2. [发送消息](https://open.feishu.cn/document/server-docs/im-v1/message/create)
 */
 
 package im
@@ -30,6 +30,7 @@ type SendImageResponse struct {
 	CreateMessageResponse *larkim.CreateMessageRespData
 }
 
+// SendImage 发送图片消息
 func SendImage(client *lark.Client, request *SendImageRequest) (*SendImageResponse, error) {
 	// 上传图片
 	createImageReq := larkim.NewCreateImageReqBuilder().

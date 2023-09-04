@@ -7,6 +7,13 @@
 * 消息
   * [发送文件消息](./composite_api/im/send_file.go)
   * [发送图片消息](./composite_api/im/send_image.go)
+* 通讯录
+  * [获取部门下所有用户列表](./composite_api/contact/list_user_by_department.go)
+* 多维表格
+  * [创建多维表格同时添加数据表](./composite_api/base/create_app_and_tables.go)
+* 电子表格
+  * [复制粘贴某个范围的单元格数据](./composite_api/sheets/copy_and_paste_by_range.go)
+  * [下载指定范围单元格的所有素材列表](./composite_api/sheets/download_media_by_range.go)
 
 ## Quick-Start
 目前提供以下场景的运行示例：

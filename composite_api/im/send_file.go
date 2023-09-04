@@ -1,7 +1,7 @@
 /*
-发送文件消息，使用到两个OpenAPI：
-1. [上传文件](https://open.feishu.cn/document/server-docs/im-v1/file/create)
-2. [发送消息](https://open.feishu.cn/document/server-docs/im-v1/message/create)
+ 发送文件消息，使用到两个OpenAPI：
+ 1. [上传文件](https://open.feishu.cn/document/server-docs/im-v1/file/create)
+ 2. [发送消息](https://open.feishu.cn/document/server-docs/im-v1/message/create)
 */
 
 package im
@@ -33,6 +33,7 @@ type SendFileResponse struct {
 	CreateMessageResponse *larkim.CreateMessageRespData
 }
 
+// SendFile 发送文件消息
 func SendFile(client *lark.Client, request *SendFileRequest) (*SendFileResponse, error) {
 	// 上传文件
 	createFileReq := larkim.NewCreateFileReqBuilder().
